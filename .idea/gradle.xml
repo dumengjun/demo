@@ -15,11 +15,11 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hibernate" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/common" />
         <option name="gradleHome" value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-3.4.1" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/hibernate" />
+            <option value="$PROJECT_DIR$/common" />
           </set>
         </option>
       </GradleProjectSettings>

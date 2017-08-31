@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common_test.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_main.iml" group="demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_test.iml" group="demo" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate/hibernate.iml" filepath="$PROJECT_DIR$/hibernate/hibernate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate_main.iml" group="hibernate" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate_test.iml" group="hibernate" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybatis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mybatis_main.iml" group="mybatis" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybatis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mybatis_test.iml" group="mybatis" />
