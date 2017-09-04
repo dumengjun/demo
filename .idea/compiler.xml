@@ -4,12 +4,20 @@
     <bytecodeTargetLevel>
       <module name="common_main" target="1.8" />
       <module name="common_test" target="1.8" />
+      <module name="demo-1_main" target="1.8" />
+      <module name="demo-1_test" target="1.8" />
+      <module name="demo-2_main" target="1.8" />
+      <module name="demo-2_test" target="1.8" />
+      <module name="demo-3_main" target="1.8" />
+      <module name="demo-3_test" target="1.8" />
       <module name="demo_main" target="1.8" />
       <module name="demo_test" target="1.8" />
       <module name="hibernate_main" target="1.8" />
       <module name="hibernate_test" target="1.8" />
       <module name="mybatis_main" target="1.8" />
       <module name="mybatis_test" target="1.8" />
+      <module name="test_main" target="1.8" />
+      <module name="test_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

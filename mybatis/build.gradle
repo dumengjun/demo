@@ -11,18 +11,39 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'maven'
 apply plugin: 'org.springframework.boot'
 
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
+[compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+
 repositories {
 	mavenCentral()
 }
 
+jar {
+	manifest {
+		attributes 'Main-Class': 'com.example.demo.api.DemoApplication'
+	}
+}
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter')
+//	compile('org.springframework.boot:spring-boot-starter')
+	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+sourceSets {
+	main {
+		java.srcDirs = ['JavaSource']
+		resources.srcDirs = ["resources"]
+		output.classesDir = new File(buildDir, "classes/main")
+	}
+	test {
+		java.srcDirs = ['test/src']
+		resources.srcDirs = ["test/config"]
+	}
 }
