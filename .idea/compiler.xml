@@ -10,6 +10,10 @@
       <module name="demo-2_test" target="1.8" />
       <module name="demo-3_main" target="1.8" />
       <module name="demo-3_test" target="1.8" />
+      <module name="demo-mybatis-xmlconfig_main" target="1.8" />
+      <module name="demo-mybatis-xmlconfig_test" target="1.8" />
+      <module name="demo-mybatis_main" target="1.8" />
+      <module name="demo-mybatis_test" target="1.8" />
       <module name="demo_main" target="1.8" />
       <module name="demo_test" target="1.8" />
       <module name="hibernate_main" target="1.8" />
